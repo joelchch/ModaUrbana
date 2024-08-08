@@ -64,7 +64,7 @@ p{
     
     min-width: 100vh;
     height: 100vh;
-    background:url(../practicabuenavista/img/portada_tienda.jpg);
+    background:url(img/portada_tienda.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -477,4 +477,68 @@ p{
 }
 #footer #pie_De_pagina p{
     font-size: small;
+}
+
+
+
+.contenedor7{
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+
+}
+.contenedor7 .contenedor7-card{
+    position: relative;
+    flex-basis: 200;
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    transition: 0.5s ease-in-out;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.card_background{
+    position: absolute;
+    width: 100%;
+    height:  100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 15px;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.card_background:hover{
+    background-color: rgba(0,0,0,0.7);
+    transition: 0.5s ease-in-out;
+}
+.contenedor-text-title{
+    display: none;
+
+    font-size: 30px;
+}
+.contenedor7-descripcion{
+    display: none;
+    font-size: 20px;
+}
+.card_background:hover .contenedor-text-title{
+    display: inline;
+    color: aliceblue;
+}
+.card_background:hover .contenedor7-descripcion{
+    display: inline;
+    color: aliceblue;
+    padding: 15px;
+
 }

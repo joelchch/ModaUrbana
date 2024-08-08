@@ -578,4 +578,12 @@ p{
     opacity: 0.9;
     border-radius: 25px;
   }
+  .parallax .titulos{
+    color: white;
+    text-shadow: 
+    2px 2px 0 black, 
+    -2px -2px 0 black, 
+    2px -2px 0 black, 
+    -2px 2px 0 black;
+  }
   
